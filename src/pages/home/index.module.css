@@ -1,0 +1,7 @@
+.mainCont {
+  background-color: rgba(173, 216, 230, 0.685);
+  height: 92vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -43,7 +43,7 @@ export default function QRScanner() {
                   console.info(error);
                 }
               }}
-              constraints={{ facingMode: "front" }}
+              constraints={{ facingMode: "back" }}
               scanDelay={1000}
             />
           </>

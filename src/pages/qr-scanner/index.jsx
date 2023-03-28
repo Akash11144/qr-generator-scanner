@@ -4,7 +4,7 @@ import { QrReader } from "react-qr-reader";
 // ///////////////////////////////
 
 export default function QRScanner() {
-  const [data, setData] = useState(null);
+  const [data, setData] = useState("Scan to get Data");
   const [scanning, setScanning] = useState(false);
 
   return (
@@ -14,7 +14,7 @@ export default function QRScanner() {
     >
       <p>updated at : 28/3/2023 7:00PM</p>
       <h1 className="text-decoration-underline">QRScanner</h1>
-      <p className="bg-white">{data}</p>
+      <p className="bg-white p-2 rounded-1">{data}</p>
       <div>
         <button
           className="btn btn-dark text-capitalize text-light"

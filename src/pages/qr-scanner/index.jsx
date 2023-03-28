@@ -12,6 +12,7 @@ export default function QRScanner() {
       style={{ backgroundColor: "yellowgreen" }}
       className="d-flex flex-column justify-content-center align-items-center gap-2 m-2 p-3 rounded-3"
     >
+      'updated at :',{JSON.stringify(new Date(Date.now()))}
       <h1 className="text-decoration-underline">QRScanner</h1>
       <div>
         <button

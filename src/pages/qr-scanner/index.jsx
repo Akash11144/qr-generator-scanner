@@ -29,7 +29,7 @@ export default function QRScanner() {
           {scanning ? "stop scan" : "start scan"}
         </button>
       </div>
-      <div className="w-50">
+      <div className="w-75">
         {scanning && (
           <>
             <QrReader
@@ -43,7 +43,7 @@ export default function QRScanner() {
                   console.info(error);
                 }
               }}
-              constraints={{ facingMode: "user" }}
+              constraints={{ facingMode: "front" }}
               scanDelay={1000}
             />
           </>

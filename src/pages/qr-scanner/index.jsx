@@ -12,7 +12,7 @@ export default function QRScanner() {
       style={{ backgroundColor: "yellowgreen" }}
       className="d-flex flex-column justify-content-center align-items-center gap-2 m-2 p-3 rounded-3"
     >
-      <h1 className="text-decoration-underline">QRScanner</h1>
+      <h1 className="text-decoration-underline">QR Scanner</h1>
       <p className="bg-white p-2 rounded-1">{data}</p>
       <div>
         <button
